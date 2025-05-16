@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}registor{% endblock  %}
+
+
+{% block content %}
+<div class="sp">
+    <a href="{% url 'clientdata' %}">clientdata</a>
+    <a href="{% url 'base' %}">login page</a>
+    </div>
+ <h1 id="r">registor form</h1>
+<div class="vino"></div>
+<div class="reg">
+<form method="post">
+<div  class="kv">
+    {% csrf_token %}
+    {{ data.as_p }}
+    <button type="submit">Submit</button>
+</div>
+</form>
+</div>
+
+{% endblock %}

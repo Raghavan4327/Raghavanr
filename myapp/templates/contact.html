@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}userdata{% endblock  %}
+
+
+{% block content %}
+<div class="sp">
+    <a href="{% url 'register' %}">register</a>
+    <a href="{% url 'base' %}">login page</a>
+    </div>
+<h1 id="king">user form</h1>
+<div class="contact">
+<form method="post">
+    <div class="vvv">
+    {% csrf_token %}
+    {{ data.as_p }}
+    {{ data.date_of_birth }}
+    <button type="submit">Submit</button>
+    </div>
+</form>
+</div>
+{% endblock %}
