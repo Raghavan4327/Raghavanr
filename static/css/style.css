@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(17, 172, 146)!important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+ 
+}
+
+.login {
+    background-color: rgb(5, 43, 37);               
+    padding: 40px;                                
+    border-radius: 55px;                         
+    box-shadow: 0 4px 10px rgba(118, 109, 21, 0.1); 
+    width: 100%;                                
+    max-width: 400px;                             
+    
+    /* Centering and layout */
+    text-align: center;
+    margin: 100px auto;                         
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#vk input[type="text"],
+#vk input[type="email"],
+#vk input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 15px;}
+
+
+
+/* Style for submit button */
+form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 100px; 
+    background-color: #1831f2;
+    color: rgb(255, 255, 255);
+    border: none; 
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+/* Style when user hovers over the button */
+form button:hover {
+    background-color: #155db8; 
+}
+#v {
+    font-size: 36px;
+    color: #0a0202fe;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+label {
+    display: none;
+}
+
+#r{
+    font-size: 36px;
+    color: #0a0202fe;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+    
+   
+}
+
+
+
+.kv input[type="text"],
+.kv input[type="email"],
+.kv input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 15px; }
+
+.reg{
+    background-color: rgb(146, 221, 209);               
+    padding: 40px;                                
+    border-radius: 55px;                         
+    box-shadow: 0 4px 10px rgba(118, 109, 21, 0.1); 
+    width: 100%;                                
+    max-width: 400px;                             
+    
+    /* Centering and layout */
+    text-align: center;
+    margin: 100px auto;                         
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#king{
+    font-size: 36px;
+    color: #0a0202fe;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.vvv input[type="text"],
+.vvv input[type="email"],
+.vvv input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 15px; }
+
+.contact{
+    background-color: rgb(146, 221, 209);               
+    padding: 40px;                                
+    border-radius: 55px;                         
+    box-shadow: 0 4px 10px rgba(118, 109, 21, 0.1); 
+    width: 100%;                                
+    max-width: 400px;  
+}
+.date-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    color: #333;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 15px;}
+
+.sp{
+    background-color: #3061ac;
+    padding: 50px;
+    text-align: center;
+}
+
+.sp a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+.sp a:hover {
+        background-color: #ddd;
+        color: black;}
